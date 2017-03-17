@@ -214,11 +214,6 @@ UpgradeLog*.htm
 *.mdf
 *.ldf
 
-# Business Intelligence projects
-*.rdl.data
-*.bim.layout
-*.bim_*.settings
-
 # Microsoft Fakes
 FakesAssemblies/
 
@@ -242,20 +237,5 @@ FakesAssemblies/
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
 
-# Paket dependency manager
-.paket/paket.exe
-paket-files/
-
 # FAKE - F# Make
 .fake/
-
-# JetBrains Rider
-.idea/
-*.sln.iml
-
-# CodeRush
-.cr/
-
-# Python Tools for Visual Studio (PTVS)
-__pycache__/
-*.pyc
