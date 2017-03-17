@@ -1,4 +1,4 @@
-{
+{ 
   "compilerOptions": {
     "noImplicitAny": false,
     "noEmitOnError": true,
@@ -14,22 +14,22 @@
   "licenseUrl": "",
 
   "frameworks": {
-    "net40": {},
-    "dotnet5.4": {
-      "dependencies": {
-        "Microsoft.CSharp": "4.0.1-beta-23516",
-        "System.Collections": "4.0.11-beta-23516",
-        "System.Linq": "4.0.1-beta-23516",
-        "System.Runtime": "4.0.21-beta-23516",
-        "System.Threading": "4.0.11-beta-23516"
+    "net40": {
+      "frameworkAssemblies": {
+        "System.Runtime": "",
+        "System.Collections": "",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
       }
-    },
-    ".NETFramework": {
-      "Version":  "v4.0"
     }
   },
   "exclude": [
-    "node_modules",
-    "wwwroot"
-  ]
-}
+      "node_modules",
+      "wwwroot"
+    ]
+  }
