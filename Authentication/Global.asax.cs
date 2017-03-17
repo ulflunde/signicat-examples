@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Diagnostics;
 
-namespace Signicat.Basic.Example
+namespace Authentication
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
@@ -20,6 +20,7 @@ namespace Signicat.Basic.Example
 
         public static void RegisterRoutes(RouteCollection routes)
         {
+            /*
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
@@ -27,7 +28,7 @@ namespace Signicat.Basic.Example
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "Auth", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
-
+            */
         }
 
         protected void Application_Start()

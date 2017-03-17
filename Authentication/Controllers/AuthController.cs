@@ -1,15 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using System.Web.Security;
 using System.Diagnostics;
 
-namespace Signicat.Basic.Example.Controllers
+using System.Web;
+/* using System.Web.Mvc; */
+using System.Web.Security;
+
+
+namespace Authentication.Controllers
 {
+/*
     public class AuthController : Controller
     {
+    */
+        /* Copied code for .Net Framework v4.0
+           to try to convert it to a .NETCoreApp. */
+
+        /*
         public ActionResult Index()
         {
             // For more information about the Signicat URL format, 
@@ -20,7 +28,9 @@ namespace Signicat.Basic.Example.Controllers
             string authenticationUrl = "https://preprod.signicat.com/std/method/shared/?id=nbid2:myprofile:&target=" + targetUrlEncoded;
             return Redirect(authenticationUrl);
         }
+        */
 
+        /*
         public ActionResult Verify(string SAMLResponse)
         {
             try
@@ -50,7 +60,9 @@ namespace Signicat.Basic.Example.Controllers
                 return Redirect("Denied");
             }
         }
+        */
 
+        /*
         [Authorize]
         public ActionResult Granted(string name)
         {
@@ -58,15 +70,19 @@ namespace Signicat.Basic.Example.Controllers
             ViewBag.UniqueId = User.Identity.Name;
             return View();
         }
+        */
 
+        /*
         public ActionResult Denied()
         {
             return View();
         }
-
+        */
+/*
         private void Log(Exception x)
         {
             Trace.WriteLine(x.Message + "\n\n" + x.StackTrace);
         }
     }
+    */
 }
