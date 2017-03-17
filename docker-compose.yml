@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  signicatexamples:
+    image: signicatexamples
+    build:
+      context: ./signicat examples
+      dockerfile: Dockerfile
