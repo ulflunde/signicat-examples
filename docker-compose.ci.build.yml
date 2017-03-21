@@ -6,4 +6,4 @@ services:
     volumes:
       - .:/src
     working_dir: /src
-    command: /bin/bash -c "dotnet restore ./signicat examples.sln && dotnet publish ./signicat examples.sln -c Release -o ./obj/Docker/publish"
+    command: /bin/bash -c "dotnet restore ./signicat\ examples.sln && dotnet publish ./signicat\ examples.sln -c Release -o ./obj/Docker/publish"

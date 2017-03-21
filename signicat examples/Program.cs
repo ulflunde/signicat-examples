@@ -14,6 +14,7 @@ namespace signicat_examples
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseIISIntegration()  // perhaps not needed?
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
                 .Build();

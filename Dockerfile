@@ -1,4 +1,4 @@
 FROM ulflunde/authentication-sandbox:latest
+#RUN apt-get -y update 
 WORKDIR /usr/share/nginx/html
-RUN mkdir -p dist
-COPY "signicat\ examples/bin/Debug/netcoreapp1.1" .
+COPY dist .
